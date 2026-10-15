@@ -9,49 +9,225 @@
       }
     },
     "events": {
-      "flap_0": {
+      "flap_u0": {
         "sequence": [
           {
             "particle_effect": {
-              "effect": "snowstorm:butterfly_left_wing_0",
+              "effect": "snowstorm:butterfly_left_wing_u0",
               "type": "particle_with_velocity"
             }
           },
           {
             "particle_effect": {
-              "effect": "snowstorm:butterfly_right_wing_0",
+              "effect": "snowstorm:butterfly_right_wing_u0",
               "type": "particle_with_velocity"
             }
           }
         ]
       },
-      "flap_1": {
+      "flap_u1": {
         "sequence": [
           {
             "particle_effect": {
-              "effect": "snowstorm:butterfly_left_wing_1",
+              "effect": "snowstorm:butterfly_left_wing_u1",
               "type": "particle_with_velocity"
             }
           },
           {
             "particle_effect": {
-              "effect": "snowstorm:butterfly_right_wing_1",
+              "effect": "snowstorm:butterfly_right_wing_u1",
               "type": "particle_with_velocity"
             }
           }
         ]
       },
-      "flap_2": {
+      "flap_u2": {
         "sequence": [
           {
             "particle_effect": {
-              "effect": "snowstorm:butterfly_left_wing_2",
+              "effect": "snowstorm:butterfly_left_wing_u2",
               "type": "particle_with_velocity"
             }
           },
           {
             "particle_effect": {
-              "effect": "snowstorm:butterfly_right_wing_2",
+              "effect": "snowstorm:butterfly_right_wing_u2",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      },
+      "flap_u3": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_u3",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_u3",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      },
+      "flap_u4": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_u4",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_u4",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      },
+      "flap_u5": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_u5",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_u5",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      },
+      "flap_u6": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_u6",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_u6",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      },
+      "flap_u7": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_u7",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_u7",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      },
+      "flap_d6": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_d6",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_d6",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      },
+      "flap_d5": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_d5",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_d5",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      },
+      "flap_d4": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_d4",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_d4",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      },
+      "flap_d3": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_d3",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_d3",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      },
+      "flap_d2": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_d2",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_d2",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      },
+      "flap_d1": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_d1",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_d1",
               "type": "particle_with_velocity"
             }
           }
@@ -79,9 +255,9 @@
         ],
         "surface_only": false,
         "direction": [
-          "math.random(-1.0, 1.0)",
-          "math.random(-0.3, 0.3)",
-          "math.random(-1.0, 1.0)"
+          0,
+          0,
+          1
         ]
       },
       "minecraft:particle_lifetime_expression": {
@@ -89,145 +265,517 @@
       },
       "minecraft:particle_lifetime_events": {
         "timeline": {
-          "0.00": "flap_0",
-          "0.08": "flap_1",
-          "0.16": "flap_2",
-          "0.24": "flap_1",
-          "0.32": "flap_0",
-          "0.40": "flap_1",
-          "0.48": "flap_2",
-          "0.56": "flap_1",
-          "0.64": "flap_0",
-          "0.72": "flap_1",
-          "0.80": "flap_2",
-          "0.88": "flap_1",
-          "0.96": "flap_0",
-          "1.04": "flap_1",
-          "1.12": "flap_2",
-          "1.20": "flap_1",
-          "1.28": "flap_0",
-          "1.36": "flap_1",
-          "1.44": "flap_2",
-          "1.52": "flap_1",
-          "1.60": "flap_0",
-          "1.68": "flap_1",
-          "1.76": "flap_2",
-          "1.84": "flap_1",
-          "1.92": "flap_0",
-          "2.00": "flap_1",
-          "2.08": "flap_2",
-          "2.16": "flap_1",
-          "2.24": "flap_0",
-          "2.32": "flap_1",
-          "2.40": "flap_2",
-          "2.48": "flap_1",
-          "2.56": "flap_0",
-          "2.64": "flap_1",
-          "2.72": "flap_2",
-          "2.80": "flap_1",
-          "2.88": "flap_0",
-          "2.96": "flap_1",
-          "3.04": "flap_2",
-          "3.12": "flap_1",
-          "3.20": "flap_0",
-          "3.28": "flap_1",
-          "3.36": "flap_2",
-          "3.44": "flap_1",
-          "3.52": "flap_0",
-          "3.60": "flap_1",
-          "3.68": "flap_2",
-          "3.76": "flap_1",
-          "3.84": "flap_0",
-          "3.92": "flap_1",
-          "4.00": "flap_2",
-          "4.08": "flap_1",
-          "4.16": "flap_0",
-          "4.24": "flap_1",
-          "4.32": "flap_2",
-          "4.40": "flap_1",
-          "4.48": "flap_0",
-          "4.56": "flap_1",
-          "4.64": "flap_2",
-          "4.72": "flap_1",
-          "4.80": "flap_0",
-          "4.88": "flap_1",
-          "4.96": "flap_2",
-          "5.04": "flap_1",
-          "5.12": "flap_0",
-          "5.20": "flap_1",
-          "5.28": "flap_2",
-          "5.36": "flap_1",
-          "5.44": "flap_0",
-          "5.52": "flap_1",
-          "5.60": "flap_2",
-          "5.68": "flap_1",
-          "5.76": "flap_0",
-          "5.84": "flap_1",
-          "5.92": "flap_2",
-          "6.00": "flap_1",
-          "6.08": "flap_0",
-          "6.16": "flap_1",
-          "6.24": "flap_2",
-          "6.32": "flap_1",
-          "6.40": "flap_0",
-          "6.48": "flap_1",
-          "6.56": "flap_2",
-          "6.64": "flap_1",
-          "6.72": "flap_0",
-          "6.80": "flap_1",
-          "6.88": "flap_2",
-          "6.96": "flap_1",
-          "7.04": "flap_0",
-          "7.12": "flap_1",
-          "7.20": "flap_2",
-          "7.28": "flap_1",
-          "7.36": "flap_0",
-          "7.44": "flap_1",
-          "7.52": "flap_2",
-          "7.60": "flap_1",
-          "7.68": "flap_0",
-          "7.76": "flap_1",
-          "7.84": "flap_2",
-          "7.92": "flap_1",
-          "8.00": "flap_0",
-          "8.08": "flap_1",
-          "8.16": "flap_2",
-          "8.24": "flap_1",
-          "8.32": "flap_0",
-          "8.40": "flap_1",
-          "8.48": "flap_2",
-          "8.56": "flap_1",
-          "8.64": "flap_0",
-          "8.72": "flap_1",
-          "8.80": "flap_2",
-          "8.88": "flap_1",
-          "8.96": "flap_0",
-          "9.04": "flap_1",
-          "9.12": "flap_2",
-          "9.20": "flap_1",
-          "9.28": "flap_0",
-          "9.36": "flap_1",
-          "9.44": "flap_2",
-          "9.52": "flap_1",
-          "9.60": "flap_0",
-          "9.68": "flap_1",
-          "9.76": "flap_2",
-          "9.84": "flap_1",
-          "9.92": "flap_0",
-          "10.00": "flap_1"
+          "0.00": "flap_u0",
+          "0.02": "flap_u1",
+          "0.04": "flap_u2",
+          "0.06": "flap_u3",
+          "0.08": "flap_u4",
+          "0.10": "flap_u5",
+          "0.12": "flap_u6",
+          "0.14": "flap_u7",
+          "0.16": "flap_d6",
+          "0.18": "flap_d5",
+          "0.20": "flap_d4",
+          "0.22": "flap_d3",
+          "0.24": "flap_d2",
+          "0.26": "flap_d1",
+          "0.28": "flap_u0",
+          "0.30": "flap_u1",
+          "0.32": "flap_u2",
+          "0.34": "flap_u3",
+          "0.36": "flap_u4",
+          "0.38": "flap_u5",
+          "0.40": "flap_u6",
+          "0.42": "flap_u7",
+          "0.44": "flap_d6",
+          "0.46": "flap_d5",
+          "0.48": "flap_d4",
+          "0.50": "flap_d3",
+          "0.52": "flap_d2",
+          "0.54": "flap_d1",
+          "0.56": "flap_u0",
+          "0.58": "flap_u1",
+          "0.60": "flap_u2",
+          "0.62": "flap_u3",
+          "0.64": "flap_u4",
+          "0.66": "flap_u5",
+          "0.68": "flap_u6",
+          "0.70": "flap_u7",
+          "0.72": "flap_d6",
+          "0.74": "flap_d5",
+          "0.76": "flap_d4",
+          "0.78": "flap_d3",
+          "0.80": "flap_d2",
+          "0.82": "flap_d1",
+          "0.84": "flap_u0",
+          "0.86": "flap_u1",
+          "0.88": "flap_u2",
+          "0.90": "flap_u3",
+          "0.92": "flap_u4",
+          "0.94": "flap_u5",
+          "0.96": "flap_u6",
+          "0.98": "flap_u7",
+          "1.00": "flap_d6",
+          "1.02": "flap_d5",
+          "1.04": "flap_d4",
+          "1.06": "flap_d3",
+          "1.08": "flap_d2",
+          "1.10": "flap_d1",
+          "1.12": "flap_u0",
+          "1.14": "flap_u1",
+          "1.16": "flap_u2",
+          "1.18": "flap_u3",
+          "1.20": "flap_u4",
+          "1.22": "flap_u5",
+          "1.24": "flap_u6",
+          "1.26": "flap_u7",
+          "1.28": "flap_d6",
+          "1.30": "flap_d5",
+          "1.32": "flap_d4",
+          "1.34": "flap_d3",
+          "1.36": "flap_d2",
+          "1.38": "flap_d1",
+          "1.40": "flap_u0",
+          "1.42": "flap_u1",
+          "1.44": "flap_u2",
+          "1.46": "flap_u3",
+          "1.48": "flap_u4",
+          "1.50": "flap_u5",
+          "1.52": "flap_u6",
+          "1.54": "flap_u7",
+          "1.56": "flap_d6",
+          "1.58": "flap_d5",
+          "1.60": "flap_d4",
+          "1.62": "flap_d3",
+          "1.64": "flap_d2",
+          "1.66": "flap_d1",
+          "1.68": "flap_u0",
+          "1.70": "flap_u1",
+          "1.72": "flap_u2",
+          "1.74": "flap_u3",
+          "1.76": "flap_u4",
+          "1.78": "flap_u5",
+          "1.80": "flap_u6",
+          "1.82": "flap_u7",
+          "1.84": "flap_d6",
+          "1.86": "flap_d5",
+          "1.88": "flap_d4",
+          "1.90": "flap_d3",
+          "1.92": "flap_d2",
+          "1.94": "flap_d1",
+          "1.96": "flap_u0",
+          "1.98": "flap_u1",
+          "2.00": "flap_u2",
+          "2.02": "flap_u3",
+          "2.04": "flap_u4",
+          "2.06": "flap_u5",
+          "2.08": "flap_u6",
+          "2.10": "flap_u7",
+          "2.12": "flap_d6",
+          "2.14": "flap_d5",
+          "2.16": "flap_d4",
+          "2.18": "flap_d3",
+          "2.20": "flap_d2",
+          "2.22": "flap_d1",
+          "2.24": "flap_u0",
+          "2.26": "flap_u1",
+          "2.28": "flap_u2",
+          "2.30": "flap_u3",
+          "2.32": "flap_u4",
+          "2.34": "flap_u5",
+          "2.36": "flap_u6",
+          "2.38": "flap_u7",
+          "2.40": "flap_d6",
+          "2.42": "flap_d5",
+          "2.44": "flap_d4",
+          "2.46": "flap_d3",
+          "2.48": "flap_d2",
+          "2.50": "flap_d1",
+          "2.52": "flap_u0",
+          "2.54": "flap_u1",
+          "2.56": "flap_u2",
+          "2.58": "flap_u3",
+          "2.60": "flap_u4",
+          "2.62": "flap_u5",
+          "2.64": "flap_u6",
+          "2.66": "flap_u7",
+          "2.68": "flap_d6",
+          "2.70": "flap_d5",
+          "2.72": "flap_d4",
+          "2.74": "flap_d3",
+          "2.76": "flap_d2",
+          "2.78": "flap_d1",
+          "2.80": "flap_u0",
+          "2.82": "flap_u1",
+          "2.84": "flap_u2",
+          "2.86": "flap_u3",
+          "2.88": "flap_u4",
+          "2.90": "flap_u5",
+          "2.92": "flap_u6",
+          "2.94": "flap_u7",
+          "2.96": "flap_d6",
+          "2.98": "flap_d5",
+          "3.00": "flap_d4",
+          "3.02": "flap_d3",
+          "3.04": "flap_d2",
+          "3.06": "flap_d1",
+          "3.08": "flap_u0",
+          "3.10": "flap_u1",
+          "3.12": "flap_u2",
+          "3.14": "flap_u3",
+          "3.16": "flap_u4",
+          "3.18": "flap_u5",
+          "3.20": "flap_u6",
+          "3.22": "flap_u7",
+          "3.24": "flap_d6",
+          "3.26": "flap_d5",
+          "3.28": "flap_d4",
+          "3.30": "flap_d3",
+          "3.32": "flap_d2",
+          "3.34": "flap_d1",
+          "3.36": "flap_u0",
+          "3.38": "flap_u1",
+          "3.40": "flap_u2",
+          "3.42": "flap_u3",
+          "3.44": "flap_u4",
+          "3.46": "flap_u5",
+          "3.48": "flap_u6",
+          "3.50": "flap_u7",
+          "3.52": "flap_d6",
+          "3.54": "flap_d5",
+          "3.56": "flap_d4",
+          "3.58": "flap_d3",
+          "3.60": "flap_d2",
+          "3.62": "flap_d1",
+          "3.64": "flap_u0",
+          "3.66": "flap_u1",
+          "3.68": "flap_u2",
+          "3.70": "flap_u3",
+          "3.72": "flap_u4",
+          "3.74": "flap_u5",
+          "3.76": "flap_u6",
+          "3.78": "flap_u7",
+          "3.80": "flap_d6",
+          "3.82": "flap_d5",
+          "3.84": "flap_d4",
+          "3.86": "flap_d3",
+          "3.88": "flap_d2",
+          "3.90": "flap_d1",
+          "3.92": "flap_u0",
+          "3.94": "flap_u1",
+          "3.96": "flap_u2",
+          "3.98": "flap_u3",
+          "4.00": "flap_u4",
+          "4.02": "flap_u5",
+          "4.04": "flap_u6",
+          "4.06": "flap_u7",
+          "4.08": "flap_d6",
+          "4.10": "flap_d5",
+          "4.12": "flap_d4",
+          "4.14": "flap_d3",
+          "4.16": "flap_d2",
+          "4.18": "flap_d1",
+          "4.20": "flap_u0",
+          "4.22": "flap_u1",
+          "4.24": "flap_u2",
+          "4.26": "flap_u3",
+          "4.28": "flap_u4",
+          "4.30": "flap_u5",
+          "4.32": "flap_u6",
+          "4.34": "flap_u7",
+          "4.36": "flap_d6",
+          "4.38": "flap_d5",
+          "4.40": "flap_d4",
+          "4.42": "flap_d3",
+          "4.44": "flap_d2",
+          "4.46": "flap_d1",
+          "4.48": "flap_u0",
+          "4.50": "flap_u1",
+          "4.52": "flap_u2",
+          "4.54": "flap_u3",
+          "4.56": "flap_u4",
+          "4.58": "flap_u5",
+          "4.60": "flap_u6",
+          "4.62": "flap_u7",
+          "4.64": "flap_d6",
+          "4.66": "flap_d5",
+          "4.68": "flap_d4",
+          "4.70": "flap_d3",
+          "4.72": "flap_d2",
+          "4.74": "flap_d1",
+          "4.76": "flap_u0",
+          "4.78": "flap_u1",
+          "4.80": "flap_u2",
+          "4.82": "flap_u3",
+          "4.84": "flap_u4",
+          "4.86": "flap_u5",
+          "4.88": "flap_u6",
+          "4.90": "flap_u7",
+          "4.92": "flap_d6",
+          "4.94": "flap_d5",
+          "4.96": "flap_d4",
+          "4.98": "flap_d3",
+          "5.00": "flap_d2",
+          "5.02": "flap_d1",
+          "5.04": "flap_u0",
+          "5.06": "flap_u1",
+          "5.08": "flap_u2",
+          "5.10": "flap_u3",
+          "5.12": "flap_u4",
+          "5.14": "flap_u5",
+          "5.16": "flap_u6",
+          "5.18": "flap_u7",
+          "5.20": "flap_d6",
+          "5.22": "flap_d5",
+          "5.24": "flap_d4",
+          "5.26": "flap_d3",
+          "5.28": "flap_d2",
+          "5.30": "flap_d1",
+          "5.32": "flap_u0",
+          "5.34": "flap_u1",
+          "5.36": "flap_u2",
+          "5.38": "flap_u3",
+          "5.40": "flap_u4",
+          "5.42": "flap_u5",
+          "5.44": "flap_u6",
+          "5.46": "flap_u7",
+          "5.48": "flap_d6",
+          "5.50": "flap_d5",
+          "5.52": "flap_d4",
+          "5.54": "flap_d3",
+          "5.56": "flap_d2",
+          "5.58": "flap_d1",
+          "5.60": "flap_u0",
+          "5.62": "flap_u1",
+          "5.64": "flap_u2",
+          "5.66": "flap_u3",
+          "5.68": "flap_u4",
+          "5.70": "flap_u5",
+          "5.72": "flap_u6",
+          "5.74": "flap_u7",
+          "5.76": "flap_d6",
+          "5.78": "flap_d5",
+          "5.80": "flap_d4",
+          "5.82": "flap_d3",
+          "5.84": "flap_d2",
+          "5.86": "flap_d1",
+          "5.88": "flap_u0",
+          "5.90": "flap_u1",
+          "5.92": "flap_u2",
+          "5.94": "flap_u3",
+          "5.96": "flap_u4",
+          "5.98": "flap_u5",
+          "6.00": "flap_u6",
+          "6.02": "flap_u7",
+          "6.04": "flap_d6",
+          "6.06": "flap_d5",
+          "6.08": "flap_d4",
+          "6.10": "flap_d3",
+          "6.12": "flap_d2",
+          "6.14": "flap_d1",
+          "6.16": "flap_u0",
+          "6.18": "flap_u1",
+          "6.20": "flap_u2",
+          "6.22": "flap_u3",
+          "6.24": "flap_u4",
+          "6.26": "flap_u5",
+          "6.28": "flap_u6",
+          "6.30": "flap_u7",
+          "6.32": "flap_d6",
+          "6.34": "flap_d5",
+          "6.36": "flap_d4",
+          "6.38": "flap_d3",
+          "6.40": "flap_d2",
+          "6.42": "flap_d1",
+          "6.44": "flap_u0",
+          "6.46": "flap_u1",
+          "6.48": "flap_u2",
+          "6.50": "flap_u3",
+          "6.52": "flap_u4",
+          "6.54": "flap_u5",
+          "6.56": "flap_u6",
+          "6.58": "flap_u7",
+          "6.60": "flap_d6",
+          "6.62": "flap_d5",
+          "6.64": "flap_d4",
+          "6.66": "flap_d3",
+          "6.68": "flap_d2",
+          "6.70": "flap_d1",
+          "6.72": "flap_u0",
+          "6.74": "flap_u1",
+          "6.76": "flap_u2",
+          "6.78": "flap_u3",
+          "6.80": "flap_u4",
+          "6.82": "flap_u5",
+          "6.84": "flap_u6",
+          "6.86": "flap_u7",
+          "6.88": "flap_d6",
+          "6.90": "flap_d5",
+          "6.92": "flap_d4",
+          "6.94": "flap_d3",
+          "6.96": "flap_d2",
+          "6.98": "flap_d1",
+          "7.00": "flap_u0",
+          "7.02": "flap_u1",
+          "7.04": "flap_u2",
+          "7.06": "flap_u3",
+          "7.08": "flap_u4",
+          "7.10": "flap_u5",
+          "7.12": "flap_u6",
+          "7.14": "flap_u7",
+          "7.16": "flap_d6",
+          "7.18": "flap_d5",
+          "7.20": "flap_d4",
+          "7.22": "flap_d3",
+          "7.24": "flap_d2",
+          "7.26": "flap_d1",
+          "7.28": "flap_u0",
+          "7.30": "flap_u1",
+          "7.32": "flap_u2",
+          "7.34": "flap_u3",
+          "7.36": "flap_u4",
+          "7.38": "flap_u5",
+          "7.40": "flap_u6",
+          "7.42": "flap_u7",
+          "7.44": "flap_d6",
+          "7.46": "flap_d5",
+          "7.48": "flap_d4",
+          "7.50": "flap_d3",
+          "7.52": "flap_d2",
+          "7.54": "flap_d1",
+          "7.56": "flap_u0",
+          "7.58": "flap_u1",
+          "7.60": "flap_u2",
+          "7.62": "flap_u3",
+          "7.64": "flap_u4",
+          "7.66": "flap_u5",
+          "7.68": "flap_u6",
+          "7.70": "flap_u7",
+          "7.72": "flap_d6",
+          "7.74": "flap_d5",
+          "7.76": "flap_d4",
+          "7.78": "flap_d3",
+          "7.80": "flap_d2",
+          "7.82": "flap_d1",
+          "7.84": "flap_u0",
+          "7.86": "flap_u1",
+          "7.88": "flap_u2",
+          "7.90": "flap_u3",
+          "7.92": "flap_u4",
+          "7.94": "flap_u5",
+          "7.96": "flap_u6",
+          "7.98": "flap_u7",
+          "8.00": "flap_d6",
+          "8.02": "flap_d5",
+          "8.04": "flap_d4",
+          "8.06": "flap_d3",
+          "8.08": "flap_d2",
+          "8.10": "flap_d1",
+          "8.12": "flap_u0",
+          "8.14": "flap_u1",
+          "8.16": "flap_u2",
+          "8.18": "flap_u3",
+          "8.20": "flap_u4",
+          "8.22": "flap_u5",
+          "8.24": "flap_u6",
+          "8.26": "flap_u7",
+          "8.28": "flap_d6",
+          "8.30": "flap_d5",
+          "8.32": "flap_d4",
+          "8.34": "flap_d3",
+          "8.36": "flap_d2",
+          "8.38": "flap_d1",
+          "8.40": "flap_u0",
+          "8.42": "flap_u1",
+          "8.44": "flap_u2",
+          "8.46": "flap_u3",
+          "8.48": "flap_u4",
+          "8.50": "flap_u5",
+          "8.52": "flap_u6",
+          "8.54": "flap_u7",
+          "8.56": "flap_d6",
+          "8.58": "flap_d5",
+          "8.60": "flap_d4",
+          "8.62": "flap_d3",
+          "8.64": "flap_d2",
+          "8.66": "flap_d1",
+          "8.68": "flap_u0",
+          "8.70": "flap_u1",
+          "8.72": "flap_u2",
+          "8.74": "flap_u3",
+          "8.76": "flap_u4",
+          "8.78": "flap_u5",
+          "8.80": "flap_u6",
+          "8.82": "flap_u7",
+          "8.84": "flap_d6",
+          "8.86": "flap_d5",
+          "8.88": "flap_d4",
+          "8.90": "flap_d3",
+          "8.92": "flap_d2",
+          "8.94": "flap_d1",
+          "8.96": "flap_u0",
+          "8.98": "flap_u1",
+          "9.00": "flap_u2",
+          "9.02": "flap_u3",
+          "9.04": "flap_u4",
+          "9.06": "flap_u5",
+          "9.08": "flap_u6",
+          "9.10": "flap_u7",
+          "9.12": "flap_d6",
+          "9.14": "flap_d5",
+          "9.16": "flap_d4",
+          "9.18": "flap_d3",
+          "9.20": "flap_d2",
+          "9.22": "flap_d1",
+          "9.24": "flap_u0",
+          "9.26": "flap_u1",
+          "9.28": "flap_u2",
+          "9.30": "flap_u3",
+          "9.32": "flap_u4",
+          "9.34": "flap_u5",
+          "9.36": "flap_u6",
+          "9.38": "flap_u7",
+          "9.40": "flap_d6",
+          "9.42": "flap_d5",
+          "9.44": "flap_d4",
+          "9.46": "flap_d3",
+          "9.48": "flap_d2",
+          "9.50": "flap_d1",
+          "9.52": "flap_u0",
+          "9.54": "flap_u1",
+          "9.56": "flap_u2",
+          "9.58": "flap_u3",
+          "9.60": "flap_u4",
+          "9.62": "flap_u5",
+          "9.64": "flap_u6",
+          "9.66": "flap_u7",
+          "9.68": "flap_d6",
+          "9.70": "flap_d5",
+          "9.72": "flap_d4",
+          "9.74": "flap_d3",
+          "9.76": "flap_d2",
+          "9.78": "flap_d1",
+          "9.80": "flap_u0",
+          "9.82": "flap_u1",
+          "9.84": "flap_u2",
+          "9.86": "flap_u3",
+          "9.88": "flap_u4",
+          "9.90": "flap_u5",
+          "9.92": "flap_u6",
+          "9.94": "flap_u7",
+          "9.96": "flap_d6",
+          "9.98": "flap_d5",
+          "10.00": "flap_d4"
         }
       },
-      "minecraft:particle_initial_speed": "math.random(0.18, 0.35)",
-      "minecraft:particle_initial_spin": {
-        "rotation": "math.random(-180.0, 180.0)"
-      },
+      "minecraft:particle_initial_speed": "(0.18 + 0.17 * variable.particle_random_1)",
       "minecraft:particle_motion_dynamic": {
         "linear_acceleration": [
-          "math.sin(variable.particle_age * 73.0) * 0.08",
-          "math.sin(variable.particle_age * 127.0) * 0.03",
-          "math.cos(variable.particle_age * 91.0) * 0.08"
+          "(0.18 + 0.17 * variable.particle_random_1) * 4.6999 * math.cos(variable.particle_age * 1285.71429) * math.cos(12 * math.sin(variable.particle_age * 1285.71429))",
+          "math.sin((variable.particle_age + variable.particle_random_2 * 6.283) * 2.5) * 0.15",
+          "-(0.18 + 0.17 * variable.particle_random_1) * 4.6999 * math.cos(variable.particle_age * 1285.71429) * math.sin(12 * math.sin(variable.particle_age * 1285.71429))"
         ],
-        "linear_drag_coefficient": 0.02
+        "linear_drag_coefficient": 0
       },
       "minecraft:particle_appearance_billboard": {
         "size": [

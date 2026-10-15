@@ -1,0 +1,72 @@
+{
+  "format_version": "1.10.0",
+  "particle_effect": {
+    "description": {
+      "identifier": "snowstorm:butterfly_right_wing_d5",
+      "basic_render_parameters": {
+        "material": "particles_alpha",
+        "texture": "textures/particle/two_sprite_area"
+      }
+    },
+    "components": {
+      "minecraft:emitter_lifetime_expression": {},
+      "minecraft:emitter_rate_manual": {
+        "max_particles": 128
+      },
+      "minecraft:emitter_shape_point": {
+        "offset": [
+          0.034556,
+          0.048716,
+          0.00571
+        ],
+        "direction": [
+          -0.801077,
+          0.583744,
+          -0.132359
+        ]
+      },
+      "minecraft:particle_lifetime_expression": {
+        "max_lifetime": 0.035
+      },
+      "minecraft:particle_initial_speed": 0,
+      "minecraft:particle_motion_dynamic": {
+        "linear_acceleration": [
+          0,
+          0,
+          0
+        ],
+        "linear_drag_coefficient": 0
+      },
+      "minecraft:particle_initial_spin": {
+        "rotation": 90
+      },
+      "minecraft:particle_appearance_billboard": {
+        "size": [
+          0.06,
+          0.11
+        ],
+        "facing_camera_mode": "direction_z",
+        "uv": {
+          "texture_width": 128,
+          "texture_height": 128,
+          "uv": [
+            7,
+            0
+          ],
+          "uv_size": [
+            6,
+            11
+          ]
+        },
+        "direction": {
+          "mode": "custom",
+          "custom_direction": [
+            -0.801077,
+            0.583744,
+            -0.132359
+          ]
+        }
+      }
+    }
+  }
+}
