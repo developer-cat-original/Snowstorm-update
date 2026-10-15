@@ -1,0 +1,253 @@
+{
+  "format_version": "1.10.0",
+  "particle_effect": {
+    "description": {
+      "identifier": "snowstorm:two_sprite_area",
+      "basic_render_parameters": {
+        "material": "particles_alpha",
+        "texture": "textures/particle/two_sprite_area"
+      }
+    },
+    "events": {
+      "flap_0": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_0",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_0",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      },
+      "flap_1": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_1",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_1",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      },
+      "flap_2": {
+        "sequence": [
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_left_wing_2",
+              "type": "particle_with_velocity"
+            }
+          },
+          {
+            "particle_effect": {
+              "effect": "snowstorm:butterfly_right_wing_2",
+              "type": "particle_with_velocity"
+            }
+          }
+        ]
+      }
+    },
+    "components": {
+      "minecraft:emitter_rate_steady": {
+        "spawn_rate": 1.7,
+        "max_particles": 16
+      },
+      "minecraft:emitter_lifetime_looping": {
+        "active_time": 10
+      },
+      "minecraft:emitter_shape_box": {
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "half_dimensions": [
+          4,
+          4,
+          4
+        ],
+        "surface_only": false,
+        "direction": [
+          "math.random(-1.0, 1.0)",
+          "math.random(-0.3, 0.3)",
+          "math.random(-1.0, 1.0)"
+        ]
+      },
+      "minecraft:particle_lifetime_expression": {
+        "max_lifetime": "math.random(6.0, 10.0)"
+      },
+      "minecraft:particle_lifetime_events": {
+        "timeline": {
+          "0.00": "flap_0",
+          "0.08": "flap_1",
+          "0.16": "flap_2",
+          "0.24": "flap_1",
+          "0.32": "flap_0",
+          "0.40": "flap_1",
+          "0.48": "flap_2",
+          "0.56": "flap_1",
+          "0.64": "flap_0",
+          "0.72": "flap_1",
+          "0.80": "flap_2",
+          "0.88": "flap_1",
+          "0.96": "flap_0",
+          "1.04": "flap_1",
+          "1.12": "flap_2",
+          "1.20": "flap_1",
+          "1.28": "flap_0",
+          "1.36": "flap_1",
+          "1.44": "flap_2",
+          "1.52": "flap_1",
+          "1.60": "flap_0",
+          "1.68": "flap_1",
+          "1.76": "flap_2",
+          "1.84": "flap_1",
+          "1.92": "flap_0",
+          "2.00": "flap_1",
+          "2.08": "flap_2",
+          "2.16": "flap_1",
+          "2.24": "flap_0",
+          "2.32": "flap_1",
+          "2.40": "flap_2",
+          "2.48": "flap_1",
+          "2.56": "flap_0",
+          "2.64": "flap_1",
+          "2.72": "flap_2",
+          "2.80": "flap_1",
+          "2.88": "flap_0",
+          "2.96": "flap_1",
+          "3.04": "flap_2",
+          "3.12": "flap_1",
+          "3.20": "flap_0",
+          "3.28": "flap_1",
+          "3.36": "flap_2",
+          "3.44": "flap_1",
+          "3.52": "flap_0",
+          "3.60": "flap_1",
+          "3.68": "flap_2",
+          "3.76": "flap_1",
+          "3.84": "flap_0",
+          "3.92": "flap_1",
+          "4.00": "flap_2",
+          "4.08": "flap_1",
+          "4.16": "flap_0",
+          "4.24": "flap_1",
+          "4.32": "flap_2",
+          "4.40": "flap_1",
+          "4.48": "flap_0",
+          "4.56": "flap_1",
+          "4.64": "flap_2",
+          "4.72": "flap_1",
+          "4.80": "flap_0",
+          "4.88": "flap_1",
+          "4.96": "flap_2",
+          "5.04": "flap_1",
+          "5.12": "flap_0",
+          "5.20": "flap_1",
+          "5.28": "flap_2",
+          "5.36": "flap_1",
+          "5.44": "flap_0",
+          "5.52": "flap_1",
+          "5.60": "flap_2",
+          "5.68": "flap_1",
+          "5.76": "flap_0",
+          "5.84": "flap_1",
+          "5.92": "flap_2",
+          "6.00": "flap_1",
+          "6.08": "flap_0",
+          "6.16": "flap_1",
+          "6.24": "flap_2",
+          "6.32": "flap_1",
+          "6.40": "flap_0",
+          "6.48": "flap_1",
+          "6.56": "flap_2",
+          "6.64": "flap_1",
+          "6.72": "flap_0",
+          "6.80": "flap_1",
+          "6.88": "flap_2",
+          "6.96": "flap_1",
+          "7.04": "flap_0",
+          "7.12": "flap_1",
+          "7.20": "flap_2",
+          "7.28": "flap_1",
+          "7.36": "flap_0",
+          "7.44": "flap_1",
+          "7.52": "flap_2",
+          "7.60": "flap_1",
+          "7.68": "flap_0",
+          "7.76": "flap_1",
+          "7.84": "flap_2",
+          "7.92": "flap_1",
+          "8.00": "flap_0",
+          "8.08": "flap_1",
+          "8.16": "flap_2",
+          "8.24": "flap_1",
+          "8.32": "flap_0",
+          "8.40": "flap_1",
+          "8.48": "flap_2",
+          "8.56": "flap_1",
+          "8.64": "flap_0",
+          "8.72": "flap_1",
+          "8.80": "flap_2",
+          "8.88": "flap_1",
+          "8.96": "flap_0",
+          "9.04": "flap_1",
+          "9.12": "flap_2",
+          "9.20": "flap_1",
+          "9.28": "flap_0",
+          "9.36": "flap_1",
+          "9.44": "flap_2",
+          "9.52": "flap_1",
+          "9.60": "flap_0",
+          "9.68": "flap_1",
+          "9.76": "flap_2",
+          "9.84": "flap_1",
+          "9.92": "flap_0",
+          "10.00": "flap_1"
+        }
+      },
+      "minecraft:particle_initial_speed": "math.random(0.18, 0.35)",
+      "minecraft:particle_initial_spin": {
+        "rotation": "math.random(-180.0, 180.0)"
+      },
+      "minecraft:particle_motion_dynamic": {
+        "linear_acceleration": [
+          "math.sin(variable.particle_age * 73.0) * 0.08",
+          "math.sin(variable.particle_age * 127.0) * 0.03",
+          "math.cos(variable.particle_age * 91.0) * 0.08"
+        ],
+        "linear_drag_coefficient": 0.02
+      },
+      "minecraft:particle_appearance_billboard": {
+        "size": [
+          0,
+          0
+        ],
+        "facing_camera_mode": "direction_z",
+        "uv": {
+          "texture_width": 128,
+          "texture_height": 128,
+          "uv": [
+            0,
+            0
+          ],
+          "uv_size": [
+            1,
+            1
+          ]
+        }
+      }
+    }
+  }
+}
