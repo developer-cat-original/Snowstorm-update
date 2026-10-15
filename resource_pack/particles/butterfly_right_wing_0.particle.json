@@ -9,6 +9,7 @@
       }
     },
     "components": {
+      "minecraft:emitter_lifetime_expression": {},
       "minecraft:emitter_rate_manual": {
         "max_particles": 128
       },
