@@ -59,7 +59,7 @@
           ]
         },
         "direction": {
-          "mode": "custom_direction",
+          "mode": "custom",
           "custom_direction": [
             0.258819,
             0.965926,
