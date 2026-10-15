@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "particle_effect": {
     "description": {
-      "identifier": "snowstorm:butterfly_left_wing_d5",
+      "identifier": "snowstorm:butterfly_left_wing",
       "basic_render_parameters": {
         "material": "particles_alpha",
         "texture": "textures/particle/two_sprite_area"
@@ -15,14 +15,14 @@
       },
       "minecraft:emitter_shape_point": {
         "offset": [
-          -0.034556,
-          0.048716,
-          -0.00571
+          "-0.06 * math.cos((42.5 + 27.5 * math.sin(variable.emitter_age * 1285.71429))) * math.cos((12 * math.sin(variable.emitter_age * 1285.71429)))",
+          "0.06 * math.sin((42.5 + 27.5 * math.sin(variable.emitter_age * 1285.71429)))",
+          "0.06 * math.cos((42.5 + 27.5 * math.sin(variable.emitter_age * 1285.71429))) * math.sin((12 * math.sin(variable.emitter_age * 1285.71429)))"
         ],
         "direction": [
-          0.801077,
-          0.583744,
-          0.132359
+          "math.sin((42.5 + 27.5 * math.sin(variable.emitter_age * 1285.71429))) * math.cos((12 * math.sin(variable.emitter_age * 1285.71429)))",
+          "math.cos((42.5 + 27.5 * math.sin(variable.emitter_age * 1285.71429)))",
+          "-math.sin((42.5 + 27.5 * math.sin(variable.emitter_age * 1285.71429))) * math.sin((12 * math.sin(variable.emitter_age * 1285.71429)))"
         ]
       },
       "minecraft:particle_lifetime_expression": {
@@ -61,9 +61,9 @@
         "direction": {
           "mode": "custom",
           "custom_direction": [
-            0.801077,
-            0.583744,
-            0.132359
+            "math.sin((42.5 + 27.5 * math.sin(variable.emitter_age * 1285.71429))) * math.cos((12 * math.sin(variable.emitter_age * 1285.71429)))",
+            "math.cos((42.5 + 27.5 * math.sin(variable.emitter_age * 1285.71429)))",
+            "-math.sin((42.5 + 27.5 * math.sin(variable.emitter_age * 1285.71429))) * math.sin((12 * math.sin(variable.emitter_age * 1285.71429)))"
           ]
         }
       }
