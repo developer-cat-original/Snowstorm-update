@@ -57,6 +57,14 @@
             6,
             11
           ]
+        },
+        "direction": {
+          "mode": "custom_direction",
+          "custom_direction": [
+            -0.258819,
+            0.965926,
+            0
+          ]
         }
       }
     }
